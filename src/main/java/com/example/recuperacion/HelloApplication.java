@@ -87,6 +87,7 @@ public class HelloApplication extends Application {
         button1.setMinHeight(20);
         Scene scene = new Scene(gridPane);
         stage.setTitle("Recuperacion");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
